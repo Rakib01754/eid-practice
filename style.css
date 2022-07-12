@@ -13,6 +13,7 @@
     height: 100vh;
     position: relative;
     color: #232a33;
+    z-index: -1;
 
 
 
@@ -49,4 +50,49 @@
     background-color: #445972;
     color: white;
     font-weight: bold;
+}
+
+#care-unit {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -60px;
+    z-index: 1;
+
+}
+
+.care-card-body {
+    display: flex;
+    text-align: center;
+
+}
+
+.care-card {
+    padding: 60px 20px;
+}
+
+.care-card img {
+    height: 100px;
+    width: 100px;
+}
+
+.care-card h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.care-card p {
+    font-size: 20px;
+}
+
+.first {
+    background-color: #CCD3DB;
+}
+
+.second {
+    background-color: #858E99;
+}
+
+.third {
+    background-color: #555D66;
 }
