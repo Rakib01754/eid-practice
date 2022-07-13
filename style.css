@@ -162,3 +162,121 @@ p {
     width: 100%;
     height: auto;
 }
+
+#we-care {
+    background-color: #E0E5EB;
+    padding: 4%;
+}
+
+.wecare-head {
+    width: 50%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.wecare-body {
+    display: flex;
+    justify-content: center;
+}
+
+.wecare-card {
+    width: 350px;
+    margin: 20px;
+    background-color: white;
+}
+
+.card-image img {
+    height: 400px;
+    width: 350px;
+}
+
+
+.card-text {
+    padding: 20px;
+}
+
+.card-text a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(144, 226, 226);
+    padding: 20px 0px;
+
+}
+
+#presence {
+    background-color: #555D66;
+    color: white;
+    text-align: center;
+    padding: 5% 2%;
+}
+
+#specialist {
+    text-align: center;
+    padding: 40px;
+}
+
+.specialist-head {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.specialist-body {
+    display: flex;
+    justify-content: center;
+}
+
+.specialist-card {
+    margin: 20px;
+    color: white;
+}
+
+.specialist-card img {
+    height: 350px;
+    width: 250px;
+}
+
+.nameplate {
+    padding: 20px;
+    margin-top: -5px;
+}
+
+#contact {
+    text-align: center;
+    background-color: #858E99;
+    padding: 60px;
+    color: white;
+}
+
+.contact-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-head {
+    padding: 40px;
+}
+
+.contact-body input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-sub {
+    padding: 10px 30px;
+    background-color: steelblue;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    font-size: 1.2rem;
+    padding: 40px;
+    text-align: center;
+}
